@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 And Configured using [Craco](https://www.npmjs.com/package/@craco/craco#configuration)
 
-# Click Use This Template Button to Quickly setup your project using This template
+## Click Use This Template Button to Quickly setup your project using This template
 
 ## Available Scripts
 
