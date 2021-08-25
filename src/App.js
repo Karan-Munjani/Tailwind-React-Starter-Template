@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app flex justify-center items-center h-screen">
+      <div class="p-6 max-w-md mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
+        <div class="flex-shrink-0">
+          <div class="h-12 w-12 circle bg-indigo-300"></div>
+        </div>
+        <div>
+          <div class="text-xl font-medium text-black">
+            Tailwind CSS + CRACO template
+          </div>
+          <p class="text-gray-500">Happy Hacking</p>
+        </div>
+      </div>
     </div>
   );
 }
